@@ -26,3 +26,7 @@ Prop name | Description | Type | Default value
 `cornerRadius` | Corner radius of the spinner segments | `number` | `20`
 
 Undocumented props are passed on the root element.
+
+
+## License
+MIT

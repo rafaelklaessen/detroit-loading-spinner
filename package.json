@@ -1,7 +1,7 @@
 {
   "name": "detroit-loading-spinner",
   "version": "1.0.0",
-  "description": "detroit-loading-spinner React component",
+  "description": "Loading spinner based on the loading spinner in the popular video game Detroit: Become Human",
   "main": "lib/index.js",
   "module": "es/index.js",
   "files": [
@@ -33,11 +33,15 @@
     "react": "^16.4.2",
     "react-dom": "^16.4.2"
   },
-  "author": "",
-  "homepage": "",
-  "license": "MIT",
-  "repository": "",
   "keywords": [
-    "react-component"
-  ]
+    "react-component",
+    "loading-spinner"
+  ],
+  "author": "Rafael Klaessen <rafaelklaessen.nl@gmail.com> (https://rafaelklaessen.nl)",
+  "homepage": "https://detroit-loading-spinner.netlify.com",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rafaelklaessen/detroit-loading-spinner.git"
+  }
 }
