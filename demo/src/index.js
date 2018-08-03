@@ -1,15 +1,21 @@
-import React, {Component} from 'react'
-import {render} from 'react-dom'
+import React, { Fragment } from 'react'
+import ReactDOM from 'react-dom'
+import Spinner from '../../src'
+import './demo.css';
 
-import Example from '../../src'
+const Demo = () => (
+  <Fragment>
+    <section className="demo-panel dark-demo">
+      <div className="wrapper">
+        <Spinner size={300} color="#2196F3" />
+      </div>
+    </section>
+    <section className="demo-panel light-demo">
+      <div className="wrapper">
+        <Spinner size={300} />
+      </div>
+    </section>
+  </Fragment>
+);
 
-class Demo extends Component {
-  render() {
-    return <div>
-      <h1>detroit-loading-spinner Demo</h1>
-      <Example/>
-    </div>
-  }
-}
-
-render(<Demo/>, document.querySelector('#demo'))
+ReactDOM.render(<Demo />, document.querySelector('#demo'))

@@ -18,11 +18,17 @@
     "test:coverage": "nwb test-react --coverage",
     "test:watch": "nwb test-react --server"
   },
-  "dependencies": {},
+  "dependencies": {
+    "prop-types": "^15.6.2"
+  },
   "peerDependencies": {
+    "d3": "^5.5.0",
+    "d3-shape": "^1.2.0",
     "react": "16.x"
   },
   "devDependencies": {
+    "d3": "^5.5.0",
+    "d3-shape": "^1.2.0",
     "nwb": "0.21.x",
     "react": "^16.4.2",
     "react-dom": "^16.4.2"
