@@ -2,6 +2,8 @@
 
 Loading spinner based on the loading spinner in the popular video game [Detroit: Become Human](https://en.wikipedia.org/wiki/Detroit:_Become_Human).
 
+![Loading spinner screenshot](https://github.com/rafaelklaessen/detroit-loading-spinner/raw/master/screenshots/screenshot.png "Screenshot of the loading spinner")
+
 ## Usage
 ```javascript
 import Spinner from 'detroit-loading-spinner';
