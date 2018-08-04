@@ -1,6 +1,6 @@
 {
   "name": "detroit-loading-spinner",
-  "version": "1.0.0-rc.0",
+  "version": "1.0.0",
   "description": "Loading spinner based on the loading spinner in the popular video game Detroit: Become Human",
   "main": "lib/index.js",
   "module": "es/index.js",
